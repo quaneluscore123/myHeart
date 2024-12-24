@@ -89,3 +89,66 @@ button:disabled {
     cursor: not-allowed;
     opacity: 0.6;
 }
+
+/*  Responsive  */
+@media only screen and (max-width: 600px) {
+    .choose {
+        padding: 6px 12px;
+        font-size: 14px;
+        margin: 8px;
+    }
+
+    #background-gif {
+        height: 200px;
+    }
+
+    #result p {
+        font-size: 20px;
+    }
+
+    .title h1 {
+        font-size: 20px;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .choose {
+        padding: 7px 14px;
+        font-size: 15px;
+        margin: 9px;
+    }
+
+    #background-gif {
+        height: 220px;
+    }
+
+    #result p {
+        font-size: 22px;
+    }
+
+    .title h1 {
+        font-size: 22px;
+    }
+}
+
+/* Desktops and laptops */
+@media only screen and (min-width: 769px) {
+    .choose {
+        padding: 8px 16px;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    #background-gif {
+        height: 250px;
+    }
+
+    #result p {
+        font-size: 24px;
+    }
+
+    .title h1 {
+        font-size: 24px;
+    }
+}
